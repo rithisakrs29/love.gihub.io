@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#yesButton {
+    background-color: #00BCD4;
+    color: #eee8e8;
+}
+
+#noButton {
+    background-color: #dd0f0f;
+    color: #e9e1e1;
+}
